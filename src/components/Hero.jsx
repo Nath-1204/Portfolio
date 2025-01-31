@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="flex flex-row justify-between items-center w-full text-white">
           <h3 className="flex-1 font-poppins font-semibold ss:text-[70px] text-[50px] text-white ss:leading-[80px] leading-[80px]">
             Bonjour!👋 <br />
-            Je m'appelle,
+            Je suis,
           </h3> 
 
         </div>
