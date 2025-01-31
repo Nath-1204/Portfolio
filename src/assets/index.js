@@ -1,4 +1,4 @@
-import Nata from "./N.png";
+import Nata from "./N.jpg";
 import profilePic from "./profile.jpg";
 import  foodProject from "./FoodDel.png"
 import eCommerce from "./E-commerce.png"
