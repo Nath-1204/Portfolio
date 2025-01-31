@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Project = (props) => {
   return (
     <motion.div
-      className="px-12 py-8 transition-colors duration-300 transform border rounded-xl hover:border-white group light:border-white light:hover:border-white feature-card"
+      className="px-12 py-8 transition-colors duration-300 transform border rounded-xl hover:border-white group light:border-white light:hover:bg-transparent feature-card"
       initial={{ y: -30, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       viewport={{ once: false, amount: 0.5 }}
@@ -52,9 +52,9 @@ const Project = (props) => {
 
 const Projects = () => {
   return (
-    <section id="projects">
-      <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
-        Projects
+    <section id="projects" className="bg-primary">
+      <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-gradient ss:leading-[80px] leading-[80px]">
+        Projets
       </h1>
 
       <div className="container px-2 py-10 mx-auto mb-8">
