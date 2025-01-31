@@ -1,6 +1,5 @@
 import React from "react";
 import { socialMedia, aboutMe } from "../constants";
-import { profilePic } from "../assets";
 import { layout } from "../style";
 
 const Footer = () => (

@@ -18,7 +18,8 @@ import {
   SiTailwindcss,
   SiPython,
   SiVite,
-  SiMongodb
+  SiMongodb,
+  SiOracle
 } from "react-icons/si";
 
 import { DiCss3, DiNodejs} from "react-icons/di";
@@ -89,6 +90,11 @@ export const skills = [
         id: "pl-9",
         icon: DiNodejs,
         name: "NodeJS",
+      },
+      {
+        id: "pl-10",
+        icon: SiOracle,
+        name: "Oracle",
       },
     ],
   },
@@ -240,9 +246,7 @@ export const aboutMe = {
     name: `RAHARIMALALA Maminirina Natacha`,
     githubUsername: 'Nata\'Dev',
     tagLine: "",
-    intro: "Bienvenue dans mon portfolio ! Je suis un développeur d'applications Web, passionné par l'apprentissage de nouvelles technologies et la création de solutions qui font la différence.Mes compétences couvrent divers langages et cadres de programmation, notamment HTML, CSS, JavaScript, Node.js, React.js, Python, MongoDB.Je m'engage à fournir des solutions efficaces et de haute qualité qui répondent aux besoins des clients et des utilisateurs."
+    intro: "Bienvenue dans mon portfolio ! Je suis une étudiante, développeur d'applications Web, passionné par l'apprentissage de nouvelles technologies et la création de solutions qui font la différence.Mes compétences couvrent divers langages et cadres de programmation, notamment HTML, CSS, JavaScript, Node.js, React.js, Python, MongoDB.Je m'engage à fournir des solutions efficaces et de haute qualité qui répondent aux besoins des clients et des utilisateurs."
 }
-
-
 
 
